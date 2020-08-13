@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  compute:
+    image: thiagonobrega/phd:python3-base
+    environment:
+        # POSTGRES_DB: ${POSTGRES_DATABASE}
+        command: ./bin/start.sh
+          volumes:
+            - ./.suap_bin:/var/opt/suap
+            - ./.suap_midia/fotos:/mnt/
+    ports:
+        - "5432:5432"
