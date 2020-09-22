@@ -50,7 +50,7 @@ def gerar_estatiscas_df(ln, est):
     numero de nulos
     '''
 
-    lin = ln.values[1:].tolist()
+    lin = ln.values[0:].tolist()
 
     zi = est.index.values.tolist()
     zi.append('nan')
