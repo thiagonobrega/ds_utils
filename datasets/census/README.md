@@ -1,4 +1,4 @@
-# Details of the data source sample
+# Details of the data source sample (..\datasets\census\processed_census.zip)
 
 
 This dataset sample has the folowing characteristics.
@@ -23,5 +23,5 @@ This dataset sample has the folowing characteristics.
 
 ## Data source duplicated similarities
 
-![image](https://github.com/thiagonobrega/ds_utils/blob/master/datasets/census/stats/census_unique.png "Sim")
+![image](https://github.com/thiagonobrega/ds_utils/blob/master/datasets/census/stats/census_gsim.png "Sim")
 
